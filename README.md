@@ -32,10 +32,30 @@ In the banking sector, understanding customer behavior is critical for retention
 - Jupyter Notebook
 
 ## How It Works
-1. **Data Input:** Customer data, including demographics, transaction history, and engagement metrics, is input into the system.
-2. **Data Preprocessing:** The data is cleaned, scaled, and split into training and testing sets.
-3. **Model Training:** The ANN is trained on the dataset to learn patterns associated with customer churn.
-4. **Prediction:** Once trained, the model can predict whether a customer will stay or leave based on new data.
+
+### Data Preparation
+Customer data, including demographics, transaction history, and engagement metrics, is loaded and explored to understand the structure of the dataset.
+
+**Loading and Exploring the Dataset:**
+
+![Independent and Dependent Variables](./path-to-image/Screenshot_2024-08-20_215730.png)
+
+### Data Preprocessing
+The data is cleaned and transformed, including converting categorical variables to numerical values using one-hot encoding.
+
+**One-Hot Encoding for Categorical Variables:**
+
+![Data Preprocessing](./path-to-image/Screenshot_2024-08-20_215750.png)
+
+### Model Training
+The ANN is trained on the preprocessed dataset. The training process involves multiple epochs, with the model improving its accuracy over time.
+
+**Training Progress:**
+
+![Model Training Progress](./path-to-image/Screenshot_2024-08-20_215635.png)
+
+### Prediction
+Once trained, the model can predict whether a customer will stay or leave based on new data.
 
 ## Use Cases
 - **Customer Retention Strategies:** Banks can use ChurnNet to identify at-risk customers and implement retention strategies.
