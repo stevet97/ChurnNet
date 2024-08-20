@@ -38,21 +38,21 @@ Customer data, including demographics, transaction history, and engagement metri
 
 **Loading and Exploring the Dataset:**
 
-![Independent and Dependent Variables](./images/Screenshot%202024-08-20%20215730.png/Screenshot_2024-08-20_215730.png)
+![Independent and Dependent Variables](images/Screenshot%202024-08-20%20215730.png/Screenshot_2024-08-20_215730.png)
 
 ### Data Preprocessing
 The data is cleaned and transformed, including converting categorical variables to numerical values using one-hot encoding.
 
 **One-Hot Encoding for Categorical Variables:**
 
-![Data Preprocessing](./images/Screenshot%202024-08-20%20215750.png/Screenshot_2024-08-20_215750.png)
+![Data Preprocessing](images/Screenshot%202024-08-20%20215750.png/Screenshot_2024-08-20_215750.png)
 
 ### Model Training
 The ANN is trained on the preprocessed dataset. The training process involves multiple epochs, with the model improving its accuracy over time.
 
 **Training Progress:**
 
-![Model Training Progress](./images/Screenshot%202024-08-20%20215635.png/Screenshot_2024-08-20_215635.png)
+![Model Training Progress](images/Screenshot%202024-08-20%20215635.png/Screenshot_2024-08-20_215635.png)
 
 ### Prediction
 Once trained, the model can predict whether a customer will stay or leave based on new data.
